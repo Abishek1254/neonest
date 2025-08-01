@@ -7,8 +7,8 @@ import { Mail, Phone, Facebook, Twitter, Instagram } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-5 px-4">
-      <div className="container mx-auto">
+    <footer className="w-full md:mx-10 lg:mx-0 bg-gray-900 text-white py-8 px-4">
+     <div className=" mx-auto w-full">
         <div className="grid md:grid-cols-4 gap-8">
           {/* Brand and Description */}
 <div>

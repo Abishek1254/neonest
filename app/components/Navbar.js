@@ -101,7 +101,7 @@ const Navbar = () => {
             </div>
 
             {/* Nav - Desktop */}
-            <nav className="hidden md:flex items-center gap-4">
+            <nav className="hidden xl:flex items-center gap-4">
               {tabs.map(({ label, path }) => (
                 <Link key={label} href={path} className={`transition-colors capitalize ${pathname === path ? "text-pink-600" : "text-gray-600 hover:text-pink-600"}`}>
                   {label}
