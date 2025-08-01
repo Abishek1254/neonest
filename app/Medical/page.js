@@ -220,7 +220,7 @@ export default function VaccineTracker({ babyId }) {
 
 
   return (
-    <div className="px-4 md:p-6 md:mx-20 lg:mx-0 w-full space-y-6 mx-auto">
+    <div className="p-6 md:p-6 md:mx-20 lg:mx-0 w-full space-y-6 mx-auto">
       {/* Page Header */}
       <div className="flex flex-wrap items-center justify-between">
         <div>

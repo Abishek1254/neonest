@@ -85,7 +85,7 @@ const Navbar = () => {
 
       <header className="bg-white/80 backdrop-blur-sm border-b border-pink-100 sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4">
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between xl:pr-4">
             {/* Logo */}
             {/* changed div tag to link tag so user can redirect to home page whenever they click on navbar logo */}
             <Link href="/" className="flex items-center">

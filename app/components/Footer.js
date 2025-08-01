@@ -51,23 +51,7 @@ export default function NeoNestFooter() {
   ];
 
   return (
-<<<<<<< HEAD
-    <footer className="w-full md:mx-10 lg:mx-0 bg-gray-900 text-white py-8 px-4">
-     <div className=" mx-auto w-full">
-        <div className="grid md:grid-cols-4 gap-8">
-          {/* Brand and Description */}
-<div>
-            <div className="flex items-center gap-x-1 mb-2">
-              <Image
-                src="/logoFooter.jpg"
-                alt="NeoNest Logo"
-                width={40}
-                height={40}
-                className="object-contain -mt-1.5"  
-              />
-              <span className="font-semibold text-lg mb-2">NeoNest</span>
-=======
-    <div className="bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 flex flex-col justify-end">
+    <div className="w-full md:mx-10 lg:mx-0 bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 flex flex-col justify-end">
       <footer className="bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white relative overflow-hidden">
         {/* Decorative top border */}
         <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/30 to-transparent"></div>
@@ -149,7 +133,6 @@ export default function NeoNestFooter() {
                   </li>
                 ))}
               </ul>
->>>>>>> 029326e050aa027acc90a0c69cdc7418d2e7620d
             </div>
           </div>
 
